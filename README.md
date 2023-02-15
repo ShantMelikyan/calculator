@@ -1,5 +1,5 @@
 # Calculator App
-![alt text](https://github.com/ShantMElikyan/calculator/cakl.png?raw=true)
+![alt text](https://github.com/ShantMelikyan/calculator/blob/main/cakl.PNG?raw=true) 
 
 This is a simple calculator app built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic calculations and switch between different themes.
 
