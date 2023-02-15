@@ -1,5 +1,5 @@
-html {
-  
+\html {
+
   transform: scale(1.5);
 }
 
@@ -8,7 +8,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: 'League Spartan', sans-serif;
-  
+
 }
 
 body {
@@ -141,6 +141,10 @@ h4 {
 }
 
 #one {
+  opacity: 1;
+}
+input:disabled {
+  -webkit-text-fill-color: currentColor;
   opacity: 1;
 }
 
