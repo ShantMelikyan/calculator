@@ -35,6 +35,7 @@ arr.forEach((element, index) => {
     if (index == 0) {
       document.getElementsByTagName("body")[0].style.backgroundColor = 'hsl(222, 26%, 31%)';
       document.querySelectorAll('.btn').forEach(element => element.style.backgroundColor = 'hsl(30, 25%, 89%)');
+      document.querySelectorAll('.btn').forEach(element => element.style.borderBottom = '3px solid #a69d91');
       document.getElementsByTagName("body")[0].style.color = 'white';
       document.querySelector('.tri-state-toggle').style.backgroundColor = 'hsl(223, 31%, 20%)';
       document.querySelector('.result').style.backgroundColor = 'hsl(224, 36%, 15%)';
