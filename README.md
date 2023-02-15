@@ -1,4 +1,5 @@
 # Calculator App
+![alt text](https://github.com/ShantMElikyan/calculator/cakl.png?raw=true)
 
 This is a simple calculator app built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic calculations and switch between different themes.
 
@@ -34,6 +35,6 @@ The calculator app comes with three different themes: default, light, and dark. 
 
 ## Credits
 
-This project was built by [Shant Melikyan] (https://github.com/ShantMelikyan).
+This project was built by Shant Melikyan (https://github.com/ShantMelikyan).
 The project is a challenge from Frontend Mentor which involves building a calculator app. 
 The challenge can be found at https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29.
