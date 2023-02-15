@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+  <title> Calculator app</title>
+</head>
+
+<body>
+  <div class="calculator">
+
+    <h4 class="theme-numbers">1 2 3</h4>
+    <div class="upper-container">
+      <div class="calc">
+        <h3>calc</h3>
+      </div>
+      <div class="theme">
+        <h4>THEME </h4>
+      </div>
+      <div class="tri-state-toggle">
+        <input class="button" type="radio" name="toggle" id="one" />
+        <input class="button" type="radio" name="toggle" id="two" />
+        <input class="button" type="radio" name="toggle" id="three" />
+      </div>
+    </div>
+
+    <div class="display">
+      <input type="text" class="result" disabled>
+    </div>
+
+    <div class="buttons">
+      <button class="btn" value="7">7</button>
+      <button class="btn" value="8">8</button>
+      <button class="btn" value="9">9</button>
+      <button class="btn delete" value="backspace">DEL</button>
+      <button class="btn" value="4">4</button>
+      <button class="btn" value="5">5</button>
+      <button class="btn" value="6">6</button>
+      <button class="btn operator" value="+">+</button>
+      <button class="btn" value="1">1</button>
+      <button class="btn" value="2">2</button>
+      <button class="btn" value="3">3</button>
+      <button class="btn operator" value="-">-</button>
+      <button class="btn" value=".">.</button>
+      <button class="btn" value="0">0</button>
+      <button class="btn operator" value="/">/</button>
+      <button class="btn operator" value="*">x</button>
+      <button class="btn clear" value="c">RESET</button>
+      <button class="btn calculate" value="=">=</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

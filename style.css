@@ -1,0 +1,166 @@
+html {
+  
+  transform: scale(1.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'League Spartan', sans-serif;
+  
+}
+
+body {
+  background-color: hsl(222, 26%, 31%);
+  font-size: 16px;
+  margin-top: 100px;
+  color: white;
+}
+
+.theme-numbers {
+  text-align: end;
+  margin-right: 5px;
+  margin-bottom: -3px;
+  letter-spacing: 1.5ch;
+}
+
+.upper-container {
+
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  align-items: center;
+}
+
+.calc {
+  flex-basis: 60%;
+}
+
+.calculator {
+  margin: auto;
+  border-radius: 5px;
+  padding: 50px;
+  width: 302px;
+}
+
+h4 {
+  margin-top: 4px;
+  font-size: 0.4rem;
+}
+
+.result {
+  margin-bottom: 10px;
+  width: 200px;
+  border: none;
+  text-align: right;
+  font-size: 24px;
+  background-color: hsl(224, 36%, 15%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: grid;
+  padding: 15px;
+  width: 200px;
+  height: 250px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 7px;
+  border-radius: 5px;
+  background-color: hsl(223, 31%, 20%);
+}
+
+.btn {
+  color: #323f61;
+  font-size: 1.3rem;
+  background-color: hsl(30, 25%, 89%);
+  border: none;
+  border-bottom: 3px solid hsl(28, 16%, 65%);
+  border-radius: 3px;
+  cursor: pointer;
+  padding-top: 4px;
+}
+
+.btn.clear {
+  /* row-start, column start, row end , columd end */
+  grid-area: 5 / 1 / 5 / 3;
+}
+
+.btn.calculate {
+  grid-area: 5 / 3 / 5 / 5;
+  font-size: 0.8rem;
+  background-color: hsl(6, 63%, 50%);
+  border-bottom: 2px solid hsl(6, 70%, 34%);
+}
+
+.btn.delete,
+.btn.clear {
+  color: white;
+  background-color: hsl(225, 21%, 49%);
+  border-bottom: 2px solid hsl(222, 26%, 31%);
+  font-size: 0.7rem;
+}
+
+.btn:hover {
+  background-color: rgb(226, 208, 188);
+}
+
+.btn.delete:hover,
+.btn.clear:hover {
+  background-color: #2d3958;
+}
+
+.btn.calculate:hover {
+  background-color: #c22311;
+}
+
+/* theme toggle */
+.tri-state-toggle input {
+  margin: 3px;
+  height: 10px;
+  width: 10px;
+  appearance: none;
+  background-color: hsl(6, 63%, 50%);
+  border-radius: 50%;
+  opacity: 0;
+}
+
+.tri-state-toggle input:hover {
+  cursor: pointer;
+}
+
+.tri-state-toggle {
+  height: 16px;
+  width: 48px;
+  display: flex;
+  justify-content: baseline;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+}
+
+#one {
+  opacity: 1;
+}
+
+/* responsive design */
+
+@media (min-width: 576px) {
+  .calculator {
+    width: 402px;
+  }
+
+  .buttons {
+    width: 300px;
+  }
+
+  .result {
+    width: 300px;
+  }
+
+  .calc {
+    flex-basis: 70%;
+  }
+
+}
